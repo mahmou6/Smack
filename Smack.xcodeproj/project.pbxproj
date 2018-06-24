@@ -12,6 +12,8 @@
 		182B67FC20D3F56500FD0D91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182B67FA20D3F56500FD0D91 /* Main.storyboard */; };
 		182B67FE20D3F56600FD0D91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182B67FD20D3F56600FD0D91 /* Assets.xcassets */; };
 		182B680120D3F56600FD0D91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182B67FF20D3F56600FD0D91 /* LaunchScreen.storyboard */; };
+		18CDE9F520E0006D0096FDF3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CDE9F420E0006D0096FDF3 /* Constants.swift */; };
+		18CDE9F720E005A10096FDF3 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CDE9F620E005A10096FDF3 /* LoginVC.swift */; };
 		18D1027A20D41A55008B6651 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D1027920D41A55008B6651 /* SWRevealViewController.m */; };
 		18D1027F20D424F5008B6651 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D1027E20D424F5008B6651 /* ChatVC.swift */; };
 		18D1028120D42506008B6651 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D1028020D42506008B6651 /* ChannelVC.swift */; };
@@ -26,6 +28,8 @@
 		182B67FD20D3F56600FD0D91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		182B680020D3F56600FD0D91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		182B680220D3F56600FD0D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CDE9F420E0006D0096FDF3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		18CDE9F620E005A10096FDF3 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		18D1027720D41A54008B6651 /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		18D1027820D41A55008B6651 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		18D1027920D41A55008B6651 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -69,6 +73,7 @@
 		182B67F520D3F56500FD0D91 /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				18CDE9F320E0004B0096FDF3 /* Utlities */,
 				18D1027620D41A08008B6651 /* Supporting Files */,
 				182B680220D3F56600FD0D91 /* Info.plist */,
 				182B67F620D3F56500FD0D91 /* AppDelegate.swift */,
@@ -80,6 +85,14 @@
 				18D1027C20D42478008B6651 /* View */,
 			);
 			path = Smack;
+			sourceTree = "<group>";
+		};
+		18CDE9F320E0004B0096FDF3 /* Utlities */ = {
+			isa = PBXGroup;
+			children = (
+				18CDE9F420E0006D0096FDF3 /* Constants.swift */,
+			);
+			path = Utlities;
 			sourceTree = "<group>";
 		};
 		18D1027620D41A08008B6651 /* Supporting Files */ = {
@@ -97,6 +110,7 @@
 			children = (
 				18D1027E20D424F5008B6651 /* ChatVC.swift */,
 				18D1028020D42506008B6651 /* ChannelVC.swift */,
+				18CDE9F620E005A10096FDF3 /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -254,9 +268,11 @@
 			files = (
 				18D1028120D42506008B6651 /* ChannelVC.swift in Sources */,
 				18D1027F20D424F5008B6651 /* ChatVC.swift in Sources */,
+				18CDE9F720E005A10096FDF3 /* LoginVC.swift in Sources */,
 				182A1DAE20DAA59700D53287 /* GradientView.swift in Sources */,
 				182B67F720D3F56500FD0D91 /* AppDelegate.swift in Sources */,
 				18D1027A20D41A55008B6651 /* SWRevealViewController.m in Sources */,
+				18CDE9F520E0006D0096FDF3 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
